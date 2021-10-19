@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="xd">
+        <form action="/send-email" method="POST">
+            <label for="from">Quien manda el mail</label>
+            <input type="text" name="from" id="from">
+            <label for="email">Mail del emisor</label>
+            <input type="text" name="email" id="email">
+            <label for="Asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <label for="mail">A quien se lo mandas</label>
+            <select name="mail" id="mail">
+                <option value="mail1@gmail.com">Sujeto 1</option>
+                <option value="mail2@gmail.com">Sujeto 2</option>
+                <option value="mail3@gmail.com">Sujeto 3</option>
+                <option value="mail4@gmail.com">Sujeto 4</option>
+                <option value="mail5@gmail.com">Sujeto 5</option>
+                <option value="mail6@gmail.com">Sujeto 6</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+    
+</body>
+</html>
